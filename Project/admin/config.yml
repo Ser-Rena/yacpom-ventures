@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main # or master, depending on your primary Git branch
+
+media_folder: "assets/images/projects" # Where uploaded project images will be saved
+public_folder: "/assets/images/projects" # How images are referenced in HTML
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects" # Saves each project item as a file in your code
+    create: true
+    fields:
+      - { label: "Project Title", name: "title", widget: "string" }
+      - { label: "Category / Service", name: "category", widget: "string" }
+      - { label: "Project Image", name: "image", widget: "image" }
+      - { label: "Description", name: "description", widget: "text" }

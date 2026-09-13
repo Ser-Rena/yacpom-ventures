@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="YACPOM Ventures - Premier Construction & Civil Engineering Firm based in Labone, Accra, Ghana. Specializing in Building Construction, Roofing & Demolishing, and Civil Engineering Works.">
+  <title>YACPOM Ventures | Construction & Civil Engineering Services | Accra, Ghana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+  <header class="navbar-header" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="brand-logo" aria-label="YACPOM Ventures Home">
+        <img src="/logo/logo.png" alt="YACPOM Ventures Logo" class="brand-logo-img">
+      </a>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#why-us" class="nav-link">Why Choose Us</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#process" class="nav-link">Process</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-btn">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger-toggle" id="hamburger" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION / CAROUSEL -->
+    <section class="hero-section" id="home">
+      <div class="slider-container" id="hero-slider">
+        <!-- Slide 1 -->
+        <div class="slide active">
+          <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=1920&q=80');"></div>
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <span class="hero-tag">Civil Engineering & Construction</span>
+            <h1 class="hero-title">Engineering Structural Excellence Across Ghana</h1>
+            <p class="hero-desc">We deliver high-caliber building construction and civil infrastructure projects with uncompromising quality and precision.</p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">Explore Our Projects</a>
+              <a href="#services" class="btn btn-outline">Our Services</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide">
+          <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1920&q=80');"></div>
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <span class="hero-tag">Commercial & Residential</span>
+            <h1 class="hero-title">Modern Architectural Construction</h1>
+            <p class="hero-desc">From complex commercial edifices to luxurious private residences, YACPOM Ventures builds for durability and modern elegance.</p>
+            <div class="hero-actions">
+              <a href="#services" class="btn btn-primary">Our Services</a>
+              <a href="#contact" class="btn btn-outline">Contact Our Team</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide">
+          <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1920&q=80');"></div>
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <span class="hero-tag">Specialized Solutions</span>
+            <h1 class="hero-title">Roofing, Demolishing & Site Preparation</h1>
+            <p class="hero-desc">Safe, controlled demolition and state-of-the-art roofing installations managed by certified industry professionals.</p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Recent Work</a>
+              <a href="#about" class="btn btn-outline">Learn About Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Controls -->
+      <button class="slider-arrow prev" id="slider-prev" aria-label="Previous Slide">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <button class="slider-arrow next" id="slider-next" aria-label="Next Slide">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+
+      <!-- Slider Pagination -->
+      <div class="slider-dots" id="slider-dots"></div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-wrapper reveal-left">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80" alt="YACPOM Ventures On-site Construction Leadership" class="about-img-main" loading="lazy">
+            <div class="about-experience-badge">
+              <span class="badge-number">100%</span>
+              <span class="badge-text">Ghanaian Owned & Operated</span>
+            </div>
+          </div>
+
+          <div class="about-content reveal-right">
+            <div class="section-header align-left">
+              <span class="section-subtitle">About YACPOM Ventures</span>
+              <h2 class="section-title">Built on Trust, Integrity, and Superior Engineering</h2>
+            </div>
+            <p class="lead-text">
+              Under the visionary leadership of CEO <strong>Charles Ampomah</strong>, YACPOM Ventures has established itself as a premier civil engineering and construction company situated in Labone, Accra.
+            </p>
+            <p class="body-text">
+              We specialize in structural developments, complex demolition projects, heavy civil engineering, and specialized roofing solutions. Our multi-disciplinary team brings precision, safety compliance, and sustainable methodologies to every site we execute across Greater Accra and nationwide.
+            </p>
+
+            <!-- Key Features Grid -->
+            <div class="about-features-grid">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <div>
+                  <h4>Safety First</h4>
+                  <p>Strict OHS regulations on all active sites.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                </div>
+                <div>
+                  <h4>Quality Assured</h4>
+                  <p>Certified construction materials & standards.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Stats Counters Area -->
+            <div class="stats-container" id="stats-counter">
+              <div class="stat-box">
+                <div class="stat-number" data-target="150">0</div>
+                <div class="stat-label">Projects Completed</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number" data-target="98">0</div>
+                <div class="stat-label">Client Satisfaction %</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number" data-target="15">0</div>
+                <div class="stat-label">Years Leadership</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="section services-section dark-bg" id="services">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-subtitle">Our Expertise</span>
+          <h2 class="section-title text-white">Comprehensive Engineering & Construction</h2>
+          <p class="section-desc">Delivering full-cycle construction services tailored to commercial, residential, and public works specifications.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service Card 1 -->
+          <div class="service-card reveal-up">
+            <div class="card-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11M8 14v3M12 14v3M16 14v3"/></svg>
+            </div>
+            <h3 class="card-title">Building Construction</h3>
+            <p class="card-text">Complete turnkey solutions for commercial buildings, residential estates, modern villas, and institutional complexes. From foundation laying to final interior finishings.</p>
+            <ul class="service-list">
+              <li>Residential & Estate Construction</li>
+              <li>Commercial Office Complexes</li>
+              <li>Structural Renovations & Additions</li>
+            </ul>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div class="service-card reveal-up" style="animation-delay: 0.1s;">
+            <div class="card-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="card-title">Roofing & Demolishing</h3>
+            <p class="card-text">Specialized structural roofing systems (trusses, tiles, metal sheets) and controlled, safe demolition works for old structures, site clearances, and hazardous clearances.</p>
+            <ul class="service-list">
+              <li>Heavy-duty Roof Systems & Trusses</li>
+              <li>Controlled Structural Demolition</li>
+              <li>Debris Clearance & Site Prep</li>
+            </ul>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="service-card reveal-up" style="animation-delay: 0.2s;">
+            <div class="card-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="card-title">Civil Engineering Works</h3>
+            <p class="card-text">Infrastructure projects engineered to last. Roads, drainage systems, retainment structures, earthworks, and heavy foundation engineering designed for Ghanaian geography.</p>
+            <ul class="service-list">
+              <li>Drainage & Foundation Works</li>
+              <li>Roads & Concrete Pavements</li>
+              <li>Retaining Walls & Earthwork</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US SECTION -->
+    <section class="section why-us-section" id="why-us">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-subtitle">Why YACPOM Ventures</span>
+          <h2 class="section-title">The Benchmark for Construction Integrity</h2>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-card reveal-up">
+            <div class="why-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><polyline points="17 11 19 13 23 9"/></svg>
+            </div>
+            <h4>Experienced Leadership</h4>
+            <p>Guided by Charles Ampomah, our site engineers and managers maintain active oversight on every phase.</p>
+          </div>
+
+          <div class="why-card reveal-up" style="animation-delay: 0.1s;">
+            <div class="why-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <h4>Quality Materials</h4>
+            <p>We source certified structural steel, tested concrete mixes, and premium roofing materials exclusively.</p>
+          </div>
+
+          <div class="why-card reveal-up" style="animation-delay: 0.2s;">
+            <div class="why-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h4>Timely Execution</h4>
+            <p>Agile project scheduling ensures milestones are achieved on schedule without compromising workmanship.</p>
+          </div>
+
+          <div class="why-card reveal-up" style="animation-delay: 0.3s;">
+            <div class="why-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h4>Safety Conscious</h4>
+            <p>Zero-compromise approach to site safety, protective equipment, and risk assessment protocols.</p>
+          </div>
+
+          <div class="why-card reveal-up" style="animation-delay: 0.4s;">
+            <div class="why-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h4>Attention to Detail</h4>
+            <p>From deep structural foundations to exterior architectural finishes, excellence is in our detail.</p>
+          </div>
+
+          <div class="why-card reveal-up" style="animation-delay: 0.5s;">
+            <div class="why-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h4>Local Expertise</h4>
+            <p>Deep knowledge of Ghanaian soil conditions, municipal approvals, and environmental considerations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS / GALLERY SECTION -->
+    <section class="section projects-section dark-bg" id="projects">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-subtitle">Our Portfolio</span>
+          <h2 class="section-title text-white">Featured Works & Achievements</h2>
+          <p class="section-desc">A selection of recent projects showcasing our civil engineering and building execution capability.</p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="building">Building Construction</button>
+          <button class="filter-btn" data-filter="civil">Civil Engineering</button>
+          <button class="filter-btn" data-filter="roofing">Roofing & Demolition</button>
+        </div>
+
+        <!-- Project Grid -->
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card" data-category="building">
+            <div class="project-img-box">
+              <img src="https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=800&q=80" alt="Modern Commercial Complex" loading="lazy">
+              <div class="project-overlay">
+                <span class="project-cat">Building Construction</span>
+                <h3 class="project-title">Commercial Office Complex</h3>
+                <span class="project-loc">Accra, Ghana</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card" data-category="civil">
+            <div class="project-img-box">
+              <img src="https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?auto=format&fit=crop&w=800&q=80" alt="Civil Foundation Works" loading="lazy">
+              <div class="project-overlay">
+                <span class="project-cat">Civil Engineering</span>
+                <h3 class="project-title">Heavy Foundation Substructure</h3>
+                <span class="project-loc">Labone, Accra</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card" data-category="roofing">
+            <div class="project-img-box">
+              <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80" alt="Industrial Truss Roofing" loading="lazy">
+              <div class="project-overlay">
+                <span class="project-cat">Roofing & Demolishing</span>
+                <h3 class="project-title">Steel Truss Roofing Installation</h3>
+                <span class="project-loc">Tema, Greater Accra</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card" data-category="building">
+            <div class="project-img-box">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Luxury Residential Development" loading="lazy">
+              <div class="project-overlay">
+                <span class="project-cat">Building Construction</span>
+                <h3 class="project-title">Luxury Villa Residence</h3>
+                <span class="project-loc">Cantonments, Accra</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-card" data-category="civil">
+            <div class="project-img-box">
+              <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80" alt="Urban Drainage Infrastructure" loading="lazy">
+              <div class="project-overlay">
+                <span class="project-cat">Civil Engineering</span>
+                <h3 class="project-title">Drainage & Concrete Works</h3>
+                <span class="project-loc">Spintex, Accra</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="project-card" data-category="roofing">
+            <div class="project-img-box">
+              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" alt="Site Clearance Demolition" loading="lazy">
+              <div class="project-overlay">
+                <span class="project-cat">Roofing & Demolishing</span>
+                <h3 class="project-title">Controlled Urban Site Demolition</h3>
+                <span class="project-loc">Osu, Accra</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS SECTION -->
+    <section class="section process-section" id="process">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-subtitle">How We Work</span>
+          <h2 class="section-title">Our Structured Delivery Process</h2>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-step reveal-up">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h3>Consultation</h3>
+              <p>Initial meeting to review design specs, site parameters, structural requirements, and operational objectives.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step reveal-up" style="animation-delay: 0.15s;">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h3>Planning & Engineering</h3>
+              <p>Detailed structural planning, material procurement scheduling, safety modeling, and resource management.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step reveal-up" style="animation-delay: 0.3s;">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h3>Execution & Construction</h3>
+              <p>Active site construction under strict civil engineering supervision, ongoing quality testing, and safety protocols.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step reveal-up" style="animation-delay: 0.45s;">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <h3>Completion & Handover</h3>
+              <p>Comprehensive final inspection, structural testing, snag list clearance, and seamless project delivery.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Contact Info Column -->
+          <div class="contact-info reveal-left">
+            <div class="section-header align-left">
+              <span class="section-subtitle">Get In Touch</span>
+              <h2 class="section-title">Let’s Discuss Your Next Construction Project</h2>
+            </div>
+            <p class="body-text">Reach out to our leadership team for inquiries, structural consultations, or site inspections.</p>
+
+            <div class="info-items">
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Chief Executive Officer</span>
+                  <span class="info-value">Charles Ampomah</span>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Phone Contact</span>
+                  <a href="tel:+233243877028" class="info-link">+233 24 387 7028</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Email Address</span>
+                  <a href="mailto:charlesampomah@gmail.com" class="info-link">charlesampomah@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <span class="info-label">Office Location</span>
+                  <span class="info-value">Labone, Accra, Ghana</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Map Location Block -->
+            <div class="map-card">
+              <div class="map-header">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Labone Headquarters • Accra</span>
+              </div>
+              <p class="map-desc">Conveniently located in Labone, serving client sites across Greater Accra Region and all regions of Ghana.</p>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-wrapper reveal-right">
+            <h3 class="form-title">Send Us a Direct Message</h3>
+            
+            <div id="form-alert" class="form-alert hidden"></div>
+
+            <form id="contact-form" novalidate>
+              <!-- Hidden Form Configuration Fields -->
+              <input type="hidden" name="subject" value="New Construction Inquiry - YACPOM Website">
+              <input type="checkbox" name="botcheck" class="hidden-honeypot" style="display: none;">
+
+              <div class="form-group">
+                <label for="name">Full Name <span class="required">*</span></label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="e.g. Kwesi Mensah" required>
+                <span class="error-msg" id="name-error"></span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address <span class="required">*</span></label>
+                  <input type="email" id="email" name="email" class="form-control" placeholder="name@example.com" required>
+                  <span class="error-msg" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number <span class="required">*</span></label>
+                  <input type="tel" id="phone" name="phone" class="form-control" placeholder="+233 24 000 0000" required>
+                  <span class="error-msg" id="phone-error"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="service-type">Service Required</label>
+                <select id="service-type" name="service_type" class="form-control">
+                  <option value="General Inquiry">General Inquiry</option>
+                  <option value="Building Construction">Building Construction</option>
+                  <option value="Roofing & Demolishing">Roofing & Demolishing</option>
+                  <option value="Civil Engineering Works">Civil Engineering Works</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Project Details / Message <span class="required">*</span></label>
+                <textarea id="message" name="message" rows="5" class="form-control" placeholder="Describe your project scope or inquiries..." required></textarea>
+                <span class="error-msg" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                <span>Send Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col brand-col">
+          <a href="#home" class="brand-logo footer-logo">
+            <img src="/logo/logo.png" alt="YACPOM Ventures Logo" class="brand-logo-img">
+          </a>
+          <p class="footer-desc">Professional civil engineering, building construction, demolition, and roofing contractors based in Labone, Accra, Ghana.</p>
+          <div class="social-links">
+            <a href="#" aria-label="LinkedIn" class="social-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="social-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" class="social-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About YACPOM</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#projects">Recent Projects</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Building Construction</a></li>
+            <li><a href="#services">Roofing Systems</a></li>
+            <li><a href="#services">Controlled Demolition</a></li>
+            <li><a href="#services">Civil Engineering Works</a></li>
+            <li><a href="#services">Site Substructure Prep</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Contact Info</h4>
+          <div class="footer-contact-info">
+            <p><strong>CEO:</strong> Charles Ampomah</p>
+            <p><strong>Location:</strong> Labone, Accra, Ghana</p>
+            <p><strong>Phone:</strong> <a href="tel:+233243877028">+233 24 387 7028</a></p>
+            <p><strong>Email:</strong> <a href="mailto:charlesampomah@gmail.com">charlesampomah@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> YACPOM Ventures. All Rights Reserved. Labone, Accra, Ghana.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

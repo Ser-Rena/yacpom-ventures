@@ -7,11 +7,11 @@
   "background_color": "#07111E",
   "theme_color": "#00B4D8",
   "icons": [
-    {
-      "src": "/logo/logo.png",
-      "sizes": "192x192 512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+      {
+    "src": "/logo/logo.png",
+    "sizes": "1536x1024",
+    "type": "image/png",
+    "purpose": "any"
+  }
   ]
 }

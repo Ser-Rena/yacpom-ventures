@@ -7,11 +7,24 @@
   "background_color": "#07111E",
   "theme_color": "#00B4D8",
   "icons": [
-      {
-    "src": "/logo/logo.png",
-    "sizes": "1536x1024",
-    "type": "image/png",
-    "purpose": "any"
-  }
+    {
+      "src": "logo/logo.png",
+      "sizes": "1536x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "logo/logo.png",
+      "sizes": "1536x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "logo/logo.png",
+      "sizes": "1536x1024",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
   ]
 }

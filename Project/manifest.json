@@ -1,4 +1,5 @@
 {
+  "id": "/",
   "name": "YACPOM Ventures",
   "short_name": "YACPOM",
   "description": "Premier Construction & Civil Engineering Firm based in Labone, Accra, Ghana.",
@@ -10,6 +11,12 @@
     {
       "src": "logo/logo.png",
       "sizes": "1536x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "logo/logo.png",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     }
